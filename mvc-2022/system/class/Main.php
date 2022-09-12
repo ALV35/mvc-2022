@@ -85,8 +85,7 @@ class Main
 			return;
 		}#class_exists
 		
-		#Colocando um valor no `action` para evitar erros na `method_exists`
-		$this->action = "";
+
 		
 		#Cria o objeto da classe do controller
 		$this->controller = new $this->controller();

@@ -4,7 +4,7 @@
  */
 
 # Caminho para a raiz
-define( 'DIR_BASE', dirname( __FILE__ ) );
+define( 'DIR_BASE', dirname(__FILE__));
 
 # Caminho para a pasta de uploads
 define( 'UP_DIR_BASE', DIR_BASE . '/app/uploads' );
@@ -30,7 +30,7 @@ define( 'URL_TEMPLATE', URL_BASE.'public/templates/'.TEMPLATE."/" );
 
 /**INFORMAÇÕES PARA CONEXAO COM O BANCO DE DADOS */
 # Nome do host da base de dados
-define( 'HOSTNAME', '127.0.0.1' );
+define( 'HOSTNAME', 'localhost' );
 
 # Porta de host
 define( 'PORT', '3306' );
